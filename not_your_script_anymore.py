@@ -7,4 +7,5 @@ def otsu_labeling(image):
     image = image > threshold_otsu(image)
     return label(image)
 
+print('Hello, world!')
 
